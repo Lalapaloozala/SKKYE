@@ -1,8 +1,6 @@
-
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 
 struct Node {
     char data;
@@ -15,20 +13,18 @@ struct Node {
 
 //if (c == EOF) break;
 
-
 class Tree {
     public:
         Tree(){};
-        Node *head= NULL;
+        Node *head = NULL;
 
         void insert(Node *temp, char data1){
-            if (! head) {
+            if (!head) {
                 Node *temp1 = new Node(data1);
                 head = temp1;
                 return;
             }
-            else if (data1 == temp->data)
-                return;
+            else if (data1 == temp->data) return;
             else if (data1 < temp->data){
                 if (temp->left == NULL){
                     Node *temp1 = new Node(data1);
@@ -59,6 +55,7 @@ class Tree {
             }
             return false;
         }
+    
         void  print(char data1){
            Node *temp = head;
             while (temp != NULL){

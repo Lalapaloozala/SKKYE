@@ -11,6 +11,8 @@ void friend_request {
     cout << "You currently have ! friend on SKKYE!" << endl;
   if(answer == 0)
     cout << "You currently have 0 fiends on SKKYE." << endl;
+  if(answer != 1 || answer != 0)
+    cout << "Sorry wrong input." << endl;
 }
 
 class Outgoing {
@@ -45,7 +47,14 @@ class Outgoing {
     friend_request(); 
   }
   
-  
+  if(personality == 4) {
+    cout << " Congrats! You are OUTGOING! " << endl;
+    cout << "<><><><><><><><><><><><><><><>"
+    cout << "A suggested friend for you is..." << endl; //fill in the name
+    cout << "... is ... years old." << endl; //fill in pronoun and age
+    cout << "... is ... ft ... in" //fill in pronoun and height
+    cout << "She loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
+    friend_request(); 
     
   
   

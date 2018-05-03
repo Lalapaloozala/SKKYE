@@ -37,10 +37,10 @@ int main() {
     cout << endl;
     
     cout << "1) What's your favorite color?\n";
-    cout << "A) Blue\n";
-    cout << "B) Yellow\n";
+    cout << "A) Yellow\n";
+    cout << "B) Pink\n";
     cout << "C) Black\n";
-    cout << "D) Pink\n";
+    cout << "D) Blue\n";
     anwser();
   
 }

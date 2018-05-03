@@ -17,14 +17,22 @@ class Outgoing {
   public:
     string answer;
   if(personality == 1) {
-    cout << " Congrats! You are outgoing! " << endl;
+    cout << " Congrats! You are SHY! " << endl;
     cout << "<><><><><><><><><><><><><><><>"
     cout << "A suggested friend for you is..." << endl; //fill in the name
     cout << "... is ... years old." << endl; //fill in pronoun and age
     cout << "... is ... ft ... in" //fill in pronoun and height
-    cout << "She loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
+    cout << "... loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request();    
   }
+  if(personality == 2) {
+    cout << " Congrats! You are CHARMING! " << endl;
+    cout << "<><><><><><><><><><><><><><><>"
+    cout << "A suggested friend for you is..." << endl; //fill in the name
+    cout << "... is ... years old." << endl; //fill in pronoun and age
+    cout << "... is ... ft ... in" //fill in pronoun and height
+    cout << "... loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
+    friend_request(); 
   
   
   

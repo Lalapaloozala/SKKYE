@@ -11,7 +11,7 @@ void friend_request {
     cout << "You currently have ! friend on SKKYE!" << endl;
   else if(answer == 0)
     cout << "You currently have 0 fiends on SKKYE." << endl;
-  if(answer != 1 || answer != 0)
+  else if(answer != 1 || answer != 0)
     cout << "Sorry wrong input." << endl;
 }
 

@@ -64,59 +64,47 @@ int main() {
     cout << "D) Partying\n";
     answer();
     
-    cout << "5) What is your favorite
-    cout << "A)  
-    cout << "B) 
-    cout << "C) 
-    cout << "D) 
+    cout << "5) What is your favorite pet?\n";
+    cout << "A) Cat\n";
+    cout << "B) Bunny\n";
+    cout << "C) Reptile\n";
+    cout << "D) Dog\n";
     answer();
     
-    cout << "6) What is your favorite
-    cout << "A)  
-    cout << "B) 
-    cout << "C) 
-    cout << "D) 
+    cout << "6) What is your favorite school subject?\n";
+    cout << "A) Art\n";
+    cout << "B) Math\n";
+    cout << "C) P.E.\n";
+    cout << "D) English\n";
     answer();
     
-    cout << "7) What is your favorite
-    cout << "A)  
-    cout << "B) 
+    cout << "7) Where would you rather live?\n";
+    cout << "A) Suburbs\n";
+    cout << "B) Beach\n";
     cout << "C) 
     cout << "D) 
     answer();
     
     cout << "8) What is your favorite
-    cout << "A)  
+    cout << "A) 
     cout << "B) 
     cout << "C) 
     cout << "D) 
     answer();
     
     cout << "9) What is your favorite
-    cout << "A)  
+    cout << "A) 
     cout << "B) 
     cout << "C) 
     cout << "D) 
     answer();
     
     cout << "10) What is your favorite
-    cout << "A)  
+    cout << "A) 
     cout << "B) 
     cout << "C) 
     cout << "D) 
     answer();
-
-5. FAV PET
-A CAT
-B BUNNY
-C REPTILE
-D DOG
-
-6. FAV SCHOOL SUBJECT
-A ART
-B MATH 
-C P.E.
-D ENGLISH
 
 7. WHERE WOULD YOU RATHER LIVE
 A SUBURBS

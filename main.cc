@@ -1,4 +1,3 @@
-#include "quiz.h"
 #include "bst.h"
 #include "LL.h"
 #include "profiles.h"

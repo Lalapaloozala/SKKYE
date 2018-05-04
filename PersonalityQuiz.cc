@@ -32,8 +32,9 @@ void anwser () {
 
 int main() {
   
-   cout << "WELCOME TO THE SKKY PERSONALITY QUIZ!\n";
-    cout << "Please anwser the following questions to th best of your ability using answer keys A, B, C, or D.\n";
+    cout << "WELCOME TO THE SKKYE PERSONALITY QUIZ!\n";
+    cout << "Please anwser the following questions to the best\n";
+    cout << "of your ability using answer keys A, B, C, or D.\n";
     cout << endl;
     
     cout << "1) What's your favorite color?\n";

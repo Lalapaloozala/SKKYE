@@ -14,7 +14,7 @@ void anwser () {
     cin >> c;
     toupper(c);
         if (c == 'A') {
-            total++;
+            total+=1;
             break;
         }
         if (c == 'B') {

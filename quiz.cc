@@ -81,54 +81,29 @@ int main() {
     cout << "7) Where would you rather live?\n";
     cout << "A) Suburbs\n";
     cout << "B) Beach\n";
-    cout << "C) 
-    cout << "D) 
+    cout << "C) Country\n";
+    cout << "D) City\n";
     answer();
     
-    cout << "8) What is your favorite
-    cout << "A) 
-    cout << "B) 
-    cout << "C) 
-    cout << "D) 
+    cout << "8) What is your favorite drink?\n";
+    cout << "A) Tea\n";
+    cout << "B) Water\n";
+    cout << "C) Energy drinks\n";
+    cout << "D) Coffee\n";
     answer();
     
-    cout << "9) What is your favorite
-    cout << "A) 
-    cout << "B) 
-    cout << "C) 
-    cout << "D) 
+    cout << "9) Which city would you rather visit?\n";
+    cout << "A) Paris\n";
+    cout << "B) Amsterdam\n";
+    cout << "C) Tokyo\n";
+    cout << "D) Rio\n";
     answer();
     
-    cout << "10) What is your favorite
-    cout << "A) 
-    cout << "B) 
-    cout << "C) 
-    cout << "D) 
+    cout << "10) What is your favorite animal?\n";
+    cout << "A) Elephant\n";
+    cout << "B) Sloth\n";
+    cout << "C) Snake\n";
+    cout << "D) Lion\n";
     answer();
 
-7. WHERE WOULD YOU RATHER LIVE
-A SUBURBS
-B BEACH
-C COUNTRY
-D CITY
-
-8. FAV DRINK
-A TEA
-B WATER
-C ENERGY DRINKS
-D COFFEE
-
-9. WHICH CITY WOULD YOU RATHER VISIT
-A PARIS
-B AMSTERDAM
-C TOKYO
-D RIO
-
-10. FAV ANIMAL
-A ELEPHANT
-B SLOTH
-C SNAKE
-D LION
-
-  
 }

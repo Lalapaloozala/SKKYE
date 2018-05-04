@@ -2,32 +2,34 @@
 #include <algorithm>
 using namespace std;
 
-struct Node {
+
+struct BST {
     char data;
-    Node *left=NULL;
-    Node *right = NULL;
-    Node(char new_data)
+    BST *left=NULL;
+    BST *right = NULL;
+    BST(char new_data)
     {data = new_data;}
 
 };
 
-//if (c == EOF) break;
+//changing char to name of class
 
 class Tree {
     public:
         Tree(){};
-        Node *head = NULL;
+        BST *head= NULL;
 
-        void insert(Node *temp, char data1){
-            if (!head) {
-                Node *temp1 = new Node(data1);
+        void insert(BST *temp, char data1){
+            if (! head) {
+                BST *temp1 = new BST(data1);
                 head = temp1;
                 return;
             }
-            else if (data1 == temp->data) return;
+            else if (data1 == temp->data)
+                return;
             else if (data1 < temp->data){
                 if (temp->left == NULL){
-                    Node *temp1 = new Node(data1);
+                    BST *temp1 = new BST(data1);
                     temp-> left = temp1;
                     return;
                 }
@@ -35,7 +37,7 @@ class Tree {
             }
             else if (data1 > temp -> data) {
                 if (temp -> right == NULL) {
-                    Node *temp1 = new Node(data1);
+                    BST *temp1 = new BST(data1);
                     temp -> right = temp1;
                     return;
                 }
@@ -44,9 +46,9 @@ class Tree {
         }
 
         bool find(char data1){
-            Node *temp = head;
+            BST *temp = head;
             while (temp != NULL){
-                if (temp->data == data1)
+ if (temp->data == data1)
                     return true;
                 else if (data1 < temp -> data)
                     temp = temp->left;
@@ -55,26 +57,4 @@ class Tree {
             }
             return false;
         }
-    
-        void  print(char data1){
-           Node *temp = head;
-            while (temp != NULL){
-                if (temp->data == data1){
-                    cout << "Found " << data1 << ". Retrace your steps to the entrance." << endl;
-                    return;
-                }
-                else if (data1 < temp -> data){
-                    cout << "Take the left door at the " << temp->data << "." << endl;
-                    temp = temp->left;
-                }
-                else if (data1 > temp -> data){
-                    cout << "Take the right door at the " << temp->data << "." << endl;
-                    temp = temp -> right;
-                }
-            }
-            return;
-        }
 };
-                                              
-          
-                                             

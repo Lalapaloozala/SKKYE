@@ -48,10 +48,10 @@ class Outgoing {
   if(personality == 4) {
     cout << " Congrats! You are OUTGOING! " << endl;
     cout << "<><><><><><><><><><><><><><><>"
-    cout << "A suggested friend for you is..." << endl; //fill in the name
-    cout << "... is ... years old." << endl; //fill in pronoun and age
-    cout << "... is ... ft ... in" //fill in pronoun and height
-    cout << "She loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
+    cout << "A suggested friend for you is YLEIAAA<3" << endl; //fill in the name
+    cout << "She is 21 years old." << endl; //fill in pronoun and age
+    cout << "She is 5 ft 2in" //fill in pronoun and height
+    cout << "She loves to" << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request(); 
   }
 };

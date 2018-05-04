@@ -50,8 +50,8 @@ class Outgoing {
     cout << "<><><><><><><><><><><><><><><>"
     cout << "A suggested friend for you is YLEIAAA<3" << endl; //fill in the name
     cout << "She is 21 years old." << endl; //fill in pronoun and age
-    cout << "She is 5 ft 2in" //fill in pronoun and height
-    cout << "She loves to" << endl; //fill in pronoun and short bio/interest/hobbies?
+    cout << "She is 5' tall.\n"; //fill in pronoun and height
+    cout << "She loves to go to parties and hang out with friends!" << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request(); 
   }
 };

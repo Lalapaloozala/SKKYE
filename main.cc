@@ -3,6 +3,8 @@
 #include "LL.h"
 #include "profiles.h"
 #include "networking.h"
+#include <vector>
+#include <cstdlib>
 using namespace std;
 
 int total = 0;
@@ -111,11 +113,7 @@ int main() {
 
 }
 
-/* #include <iostream>
-#include <vector>
-#include <cstdlib>
-
-using namespace std;
+/* 
 
 void die() {
     cout << " ";

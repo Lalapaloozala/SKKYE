@@ -22,11 +22,10 @@ void anwser () {
             break;
         }
         if (c == 'D') {
-            total +=4;
+            total += 4;
             break;
-        }else {
-        cout << "Invalid input. Please try again.\n";
-    }
+        }
+        else cout << "Invalid input. Please try again.\n";
     }
 }
 
@@ -43,5 +42,7 @@ int main() {
     cout << "C) Black\n";
     cout << "D) Blue\n";
     anwser();
+    
+    
   
 }

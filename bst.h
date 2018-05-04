@@ -4,11 +4,11 @@ using namespace std;
 
 
 struct BST {
-    char data;
+    char data1;
     BST *left=NULL;
     BST *right = NULL;
     BST(char new_data)
-    {data = new_data;}
+    {data1 = new_data;}
 
 };
 

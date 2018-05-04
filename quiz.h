@@ -105,5 +105,19 @@ int main() {
     cout << "C) Snake\n";
     cout << "D) Lion\n";
     answer();
+    
+    cout << "11) Which is your favorite Sport?\n";
+    cout << "A) Basketball\n";
+    cout << "B) Soccer\n";
+    cout << "C) Football\n";
+    cout << "D) MMA\n";
+    answer();
+    
+    cout << "12) Which would you most like to eat?\n";
+    cout << "A) Mac & Cheese\n";
+    cout << "B) Sandwich\n";
+    cout << "C) Sushi\n";
+    cout << "D) Tacos and Beer\n";
+    answer();
 
 }

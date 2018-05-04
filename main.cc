@@ -1,4 +1,7 @@
-#include <iostream>
+#include "quiz.h"
+#include "bst.h"
+#include "LL.h"
+#include "profiles.h"
 using namespace std;
 
 int total = 0;

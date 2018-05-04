@@ -5,7 +5,7 @@ class Outgoing {
   public:
     string answer;
   if(personality == 1) {
-    cout << " Congrats! You are SHY! " << endl;
+    cout << " Congrats! You are CHILL! " << endl;
     cout << "<><><><><><><><><><><><><><><>"
     cout << "A suggested friend for you is..." << endl; //fill in the name
     cout << "... is ... years old." << endl; //fill in pronoun and age

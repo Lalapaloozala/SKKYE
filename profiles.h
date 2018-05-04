@@ -1,18 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void friend_request {
-  cout << "Would you like to add them as a friend?" << endl;
-  cout << "Enter a 1 if you would like to add them as a friend ";
-  cout << "or enter a 0 if you would not like to add them as a friend." << endl;
-  if (answer == 1)
-    cout << "You currently have ! friend on SKKYE!" << endl;
-  else if(answer == 0)
-    cout << "You currently have 0 fiends on SKKYE." << endl;
-  else if(answer != 1 || answer != 0)
-    cout << "Sorry wrong input." << endl;
-}
-
 class Outgoing {
   public:
     string answer;
@@ -56,8 +44,17 @@ class Outgoing {
   }
 };
   
-  
-  
+void friend_request {
+  cout << "Would you like to add them as a friend?" << endl;
+  cout << "Enter a 1 if you would like to add them as a friend ";
+  cout << "or enter a 0 if you would not like to add them as a friend." << endl;
+  if (answer == 1)
+    cout << "You currently have ! friend on SKKYE!" << endl;
+  else if(answer == 0)
+    cout << "You currently have 0 fiends on SKKYE." << endl;
+  else if(answer != 1 || answer != 0)
+    cout << "Sorry wrong input." << endl;
+}
   
   
   

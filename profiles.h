@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 void friend_request {
   cout << "Would you like to add them as a friend?" << endl;
   cout << "Enter a 1 if you would like to add them as a friend ";
@@ -31,9 +29,9 @@ class Outgoing {
     cout << " Congrats! You are CHARMING! " << endl;
     cout << "<><><><><><><><><><><><><><><>"
     cout << "A suggested friend for you is KAMILAH_123<3!" << endl;
-    cout << "She is ... years old." << endl; //fill in age
-    cout << "She is ... ft ... in." //fill in height
-    cout << "She loves to ..." << endl; //fill in short bio/interest/hobbies?
+    cout << "She is 23 years old." << endl; //fill in age
+    cout << "She is 6' tall." //fill in height
+    cout << "She loves to dance and go to the beach!" << endl; //fill in short bio/interest/hobbies?
     friend_request(); 
   }
   
@@ -41,9 +39,9 @@ class Outgoing {
     cout << " Congrats! You are ADVENTUROUS! " << endl;
     cout << "<><><><><><><><><><><><><><><>"
     cout << "A suggested friend for you is ERIC$$$!" << endl; 
-    cout << "He is ... years old." << endl; //fill in age
-    cout << "He is ... ft ... in." //fill in height
-    cout << "He loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
+    cout << "He is 25 years old." << endl; //fill in age
+    cout << "He is 6' tall." //fill in height
+    cout << "He loves to make movies and live on the edge!" << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request(); 
   }
   
@@ -55,8 +53,8 @@ class Outgoing {
     cout << "... is ... ft ... in" //fill in pronoun and height
     cout << "She loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request(); 
-    
-  
+  }
+};
   
   
   

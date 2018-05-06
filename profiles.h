@@ -8,9 +8,9 @@ class Outgoing {
     cout << " Congrats! You are CHILL! " << endl;
     cout << "<><><><><><><><><><><><><><><>"
     cout << "A suggested friend for you is KORY_*v*" << endl; //fill in the name
-    cout << "She is ... years old." << endl; //fill in pronoun and age
-    cout << "She is ... ft ... in" //fill in pronoun and height
-    cout << "She loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
+    cout << "She is 19 years old." << endl; //fill in pronoun and age
+    cout << "She is 5 ft 2 in" //fill in pronoun and height
+    cout << "She loves to spend time with her family whenever she has free time!" << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request();    
   }
   

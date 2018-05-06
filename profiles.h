@@ -26,7 +26,7 @@ class Outgoing {
   
   if(personality == 3) {
     cout << " Congrats! You are IMAGINATIVE! " << endl;
-    cout << "<><><><><><><><><><><><><><><>"
+    cout << "<><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is SALEH!#$!" << endl; 
     cout << "He is 20 years old." << endl; //fill in age
     cout << "He is 5 ft 9 in tall." //fill in height

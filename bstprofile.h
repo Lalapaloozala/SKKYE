@@ -2,13 +2,13 @@
 #include <algorithm>
 using namespace std;
 
-
 struct BST {
     char data1;
     BST *left=NULL;
     BST *right = NULL;
-    BST(char new_data)
-    {data1 = new_data;}
+    BST(char new_data) {
+        data1 = new_data;
+    }
 
 };
 
@@ -48,7 +48,7 @@ class Tree {
         bool find(char data1){
             BST *temp = head;
             while (temp != NULL){
- if (temp->data == data1)
+                if (temp->data == data1)
                     return true;
                 else if (data1 < temp -> data)
                     temp = temp->left;

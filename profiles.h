@@ -61,7 +61,11 @@ class Tree {
 class Personality {
   public:
     string answer;
-  if(personality == 1) {
+  void PH(int x) {
+      int personality =0;
+   personality = x;
+      
+      if(personality == 1) {
     cout << " Congrats! You are CHILL! " << endl;
     cout << "<><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is KORY_*v*." << endl; 
@@ -110,7 +114,8 @@ class Personality {
     cout << "She loves to go to parties and hang out with friends!" << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request(); 
   }
-};
+  }
+  };
 
 void friend_request {
   cout << "Would you like to add them as a friend?" << endl;

@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -25,7 +24,7 @@ void anwser () {
             total += 4;
             break;
         }
-        if (c ==  'E') {
+        if (c == 'E') {
             total += 5;
             break;
         }
@@ -33,7 +32,7 @@ void anwser () {
     }
 }
 
-int quiz () {
+int quiz() {
     cout << "WELCOME TO THE SKKYE PERSONALITY QUIZ!\n";
     cout << "Please anwser the following questions to the best\n";
     cout << "of your ability using answer keys A, B, C, or D.\n";

@@ -57,15 +57,69 @@ class Tree {
             return false;
         }
 };
+
+class Personality {
+  public:
+    string answer;
+  if(personality == 1) {
+    cout << " Congrats! You are CHILL! " << endl;
+    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "A suggested friend for you is KORY_*v*." << endl; 
+    cout << "She is 19 years old." << endl; 
+    cout << "She is 5 ft 2 in tall." << endl; 
+    cout << "She loves to spend time with her family whenever she has free time!" << endl; //fill in pronoun and short bio/interest/hobbies?
+    friend_request();    
+  }
   
+  if(personality == 2) {
+    cout << " Congrats! You are CHARMING! " << endl;
+    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "A suggested friend for you is KAMILAH_123<3." << endl;
+    cout << "She is 23 years old." << endl; 
+    cout << "She is 6 ft tall." << endl; 
+    cout << "She loves to dance and go to the beach!" << endl; //fill in short bio/interest/hobbies?
+    friend_request(); 
+  }
+  
+  if(personality == 3) {
+    cout << " Congrats! You are IMAGINATIVE! " << endl;
+    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "A suggested friend for you is SALEH!#$." << endl; 
+    cout << "He is 20 years old." << endl; 
+    cout << "He is 5 ft 9 in tall." << endl; 
+    cout << "He loves being creative and trying new things!" << endl; //fill in pronoun and short bio/interest/hobbies?
+    friend_request(); 
+  }
+  
+  if(personality == 4) {
+    cout << " Congrats! You are ADVENTUROUS! " << endl;
+    cout << "<><><><><><><><><><><><><><><>" endl;
+    cout << "A suggested friend for you is ERIC$$$." << endl; 
+    cout << "He is 25 years old." << endl; 
+    cout << "He is 6 ft tall." << endl; 
+    cout << "He loves to make movies and live on the edge!" << endl; //fill in pronoun and short bio/interest/hobbies?
+    friend_request(); 
+  }
+  
+  if(personality == 5) {
+    cout << " Congrats! You are OUTGOING! " << endl;
+    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "A suggested friend for you is YLEIA_XO" << endl; 
+    cout << "She is 21 years old." << endl; 
+    cout << "She is 5 ft 2 in tall.\n"; << endl; 
+    cout << "She loves to go to parties and hang out with friends!" << endl; //fill in pronoun and short bio/interest/hobbies?
+    friend_request(); 
+  }
+};
+
 void friend_request {
   cout << "Would you like to add them as a friend?" << endl;
   cout << "Enter a 1 if you would like to add them as a friend ";
   cout << "or enter a 0 if you would not like to add them as a friend." << endl;
   if (answer == 1)
-    cout << "You currently have ! friend on SKKYE!" << endl;
+    cout << "You currently have 1 friend on SKKYE!" << endl;
   else if(answer == 0)
     cout << "You currently have 0 fiends on SKKYE." << endl;
   else if(answer != 1 || answer != 0)
-    cout << "Sorry wrong input." << endl;
+    cout << "Sorry, wrong input." << endl;
 }

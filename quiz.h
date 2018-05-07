@@ -32,7 +32,7 @@ void anwser () {
     }
 }
 
-int quiz() {
+void quiz() {
     cout << "WELCOME TO THE SKKYE PERSONALITY QUIZ!\n";
     cout << "Please anwser the following questions to the best\n";
     cout << "of your ability using answer keys A, B, C, or D.\n";
@@ -134,5 +134,5 @@ int quiz() {
     cout << "E) Tacos & Beer\n";
     answer();
     
-    return total;
+    return;
 }

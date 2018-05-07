@@ -6,6 +6,12 @@
 #include <cstdlib>
 using namespace std;
 
+
+void die() {
+    cout<< "INVALID INPUT" << endl;
+    exit(1);
+}
+
 int main(){
     cout << "Welcome to SKKYE, the hottset new social media on the market!" << endl;
     cout << "Finding friends with similar interests has never been easier." << endl;
@@ -15,6 +21,8 @@ int main(){
     //set up profile - personal info
     //tell them they will take the quiz now
     quiz();
+    cout << "Your score is " << total << "." << endl;
+    
 }
 
 /* 

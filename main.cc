@@ -31,12 +31,6 @@ int main(){
 }
 
 /* 
-
-void die() {
-    cout << " ";
-    exit (0);
-}
-int main() {
     Tree Bst;
     vector <char> vec;
     char letter;

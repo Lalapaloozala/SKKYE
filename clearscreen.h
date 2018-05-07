@@ -3,6 +3,7 @@
 //Can be added to out personality quiz and also when our profiles and user prompts come up
 #include <term.h>
 #include <unistd.h>
+#include <cstdlib>
 
 void ClearScreen() {
   if (!cur_term) {
@@ -13,3 +14,6 @@ void ClearScreen() {
   }
   putp(tigetstr("clear"));
 }
+
+//Clearscreen()
+//cin.clear

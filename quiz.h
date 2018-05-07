@@ -33,8 +33,7 @@ void anwser () {
     }
 }
 
-int main() {
-  
+int quiz () {
     cout << "WELCOME TO THE SKKYE PERSONALITY QUIZ!\n";
     cout << "Please anwser the following questions to the best\n";
     cout << "of your ability using answer keys A, B, C, or D.\n";
@@ -100,7 +99,7 @@ int main() {
     cout << "A) Tea\n";
     cout << "B) Water\n";
     cout << "C) Orange Juice\n"; 
-    cout << "D) Energy drinks\n";
+    cout << "D) Energy Drinks/ Soda\n";
     cout << "E) Coffee\n";
     answer();
     
@@ -130,10 +129,11 @@ int main() {
     
     cout << "12) Which would you most like to eat?\n";
     cout << "A) Mac & Cheese\n";
-    cout << "B) Sandwich\n";
+    cout << "B) A Sandwich\n";
     cout << "C) Pizza\n";
     cout << "D) Sushi\n";
-    cout << "E) Tacos and Beer\n";
+    cout << "E) Tacos & Beer\n";
     answer();
-
+    
+    return total;
 }

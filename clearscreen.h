@@ -1,4 +1,7 @@
 //CLEAR SCREEN(may or may not implement in our project)
+//lterminfo (compiler flag)
+#include <term.h>
+#include <unistd.h>
 
 void ClearScreen() {
   if (!cur_term) {

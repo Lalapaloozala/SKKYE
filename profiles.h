@@ -13,6 +13,8 @@ struct BST {
 
 //changing char to name of class
 //searching through 4 profiles, tree will return 1,2,3,4 (search function will return a #)
+//Iterminfo as a compiler flag(clearscreen)
+
 class Tree {
     public:
         Tree(){};

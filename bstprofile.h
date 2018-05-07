@@ -9,7 +9,6 @@ struct BST {
     BST(char new_data) {
         data1 = new_data;
     }
-
 };
 
 //changing char to name of class
@@ -57,49 +56,6 @@ class Tree {
             }
             return false;
         }
-};
-
-class Outgoing {
-  public:
-    string answer;
-  if(personality == 1) {
-    cout << " Congrats! You are SHY! " << endl;
-    cout << "<><><><><><><><><><><><><><><>"
-    cout << "A suggested friend for you is..." << endl; //fill in the name
-    cout << "... is ... years old." << endl; //fill in pronoun and age
-    cout << "... is ... ft ... in" //fill in pronoun and height
-    cout << "... loves to ..." << endl; //fill in pronoun and short bio/interest/hobbies?
-    friend_request();    
-  }
-  if(personality == 2) {
-    cout << " Congrats! You are CHARMING! " << endl;
-    cout << "<><><><><><><><><><><><><><><>"
-    cout << "A suggested friend for you is KAMILAH_123<3!" << endl;
-    cout << "She is 23 years old." << endl; //fill in age
-    cout << "She is 6' tall." //fill in height
-    cout << "She loves to dance and go to the beach!" << endl; //fill in short bio/interest/hobbies?
-    friend_request(); 
-  }
-  
-  if(personality == 3) {
-    cout << " Congrats! You are ADVENTUROUS! " << endl;
-    cout << "<><><><><><><><><><><><><><><>"
-    cout << "A suggested friend for you is ERIC$$$!" << endl; 
-    cout << "He is 25 years old." << endl; //fill in age
-    cout << "He is 6' tall." //fill in height
-    cout << "He loves to make movies and live on the edge!" << endl; //fill in pronoun and short bio/interest/hobbies?
-    friend_request(); 
-  }
-  
-  if(personality == 4) {
-    cout << " Congrats! You are OUTGOING! " << endl;
-    cout << "<><><><><><><><><><><><><><><>"
-    cout << "A suggested friend for you is YLEIA_XO" << endl; //fill in the name
-    cout << "She is 21 years old." << endl; //fill in pronoun and age
-    cout << "She is 5' tall.\n"; //fill in pronoun and height
-    cout << "She loves to go to parties and hang out with friends!" << endl; //fill in pronoun and short bio/interest/hobbies?
-    friend_request(); 
-  }
 };
   
 void friend_request {

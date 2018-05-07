@@ -6,13 +6,11 @@
 #include <cstdlib>
 using namespace std;
 
-
-void die() {
-    cout<< "INVALID INPUT" << endl;
-    exit(1);
-}
-
 int main(){
+    Tree myTree;
+    for (int i = 0; i < 5; i++) {
+        myTree.insert(i + 1);
+    }
     cout << "Welcome to SKKYE, the hottset new social media on the market!" << endl;
     cout << "Finding friends with similar interests has never been easier." << endl;
     cout << "Our top of the line personality quiz matches you with one of" << endl;
@@ -20,14 +18,16 @@ int main(){
     cout << "with all of the right people from around the world! << endl;
     //set up profile - personal info
     //tell them they will take the quiz now
-    quiz();
+    quiz(); //take the quiz
     cout << "Your score is " << total << "." << endl;
     int personality =0;
-    if (total >= 12 && total <= 20) personality =1;
-    if (total >= 21 && total <= 30) personality =2;
-    if (total >= 31 && total <= 40) personality =3; 
-    if (total >= 41 && total <= 50) personality =4;
-    if (total >= 51 && total <= 60) personality =5;
+    if (total >= 12 && total <= 20) personality = myTree.find(1);
+    if (total >= 21 && total <= 30) personality = myTree.find(2);
+    if (total >= 31 && total <= 40) personality = myTree.find(3); 
+    if (total >= 41 && total <= 50) personality = myTree.find(4);
+    if (total >= 51 && total <= 60) personality = myTree.find(5);
+    PH (personality); //match with co-founder and add or don't add friend
+    //chat
 }
 
 /* 

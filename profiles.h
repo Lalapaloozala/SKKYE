@@ -51,17 +51,17 @@ class Tree {
             }
         }
 
-        bool find(char data1){
+        int find(char data1){
             BST *temp = head;
             while (temp != NULL){
                 if (temp->data == data1)
-                    return true;
+                    return data;
                 else if (data1 < temp -> data)
                     temp = temp->left;
                 else if (data1 > temp -> data)
                     temp = temp -> right;
             }
-            return false;
+            return 0;
         }
 };
 

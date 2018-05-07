@@ -15,9 +15,45 @@ int main(){
     cout << "Finding friends with similar interests has never been easier." << endl;
     cout << "Our top of the line personality quiz matches you with one of" << endl;
     cout << "our co-founders who you can chat with. They will set you up" << endl;
-    cout << "with all of the right people from around the world! << endl;
-    //set up profile - personal info
-    //tell them they will take the quiz now
+    cout << "with all of the right people from around the world!" << endl;
+    cout << endl;
+    
+    string first, last;
+    string username, password, password1;
+    string bio;
+    char correct;
+    int x, y = 0;
+    bool input = true;
+    
+    cout << "Sign up for SKKYE! << endl;
+    cout << "Enter your first name: ";
+    cin >> first;
+    if (!cin) die();
+    cout << "\nEnter your last name: ";
+    cin >> last;
+    if (!cin) die();
+    cout << "\nChoose a username: ";
+    cin >> username;
+    if (!cin) die();
+    cout << "\nChoose a password: ";
+    cin >> password;
+    if (!cin) die();
+    cout << endl;
+    while(input){
+        cout << "Please enter your password again: ";
+        cin >> password1;
+        if (!cin) die();
+        if (password != password1) cout << "\nPasswords do not match." << endl; 
+        if (password == password1) {
+            break;
+        }
+    }
+    cout << endl;
+    cout << "Create a bio so that your friends can see what you like to do:" << endl;
+    cin >> bio;
+    if (!cin) die();
+
+
     quiz(); //take the quiz
     cout << "Your score is " << total << "." << endl;
     int personality =0;

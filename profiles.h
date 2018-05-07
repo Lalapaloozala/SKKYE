@@ -62,7 +62,6 @@ class Personality {
   public:
     string answer;
   void PH(int x) {
-      int personality = 0;
       personality = x;
       
       if(personality == 1) {

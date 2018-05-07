@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Outgoing {
+class Personality {
   public:
     string answer;
   if(personality == 1) {

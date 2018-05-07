@@ -22,7 +22,12 @@ int main(){
     //tell them they will take the quiz now
     quiz();
     cout << "Your score is " << total << "." << endl;
-    
+    int personality =0;
+    if (total >= 12 && total <= 20) personality =1;
+    if (total >= 21 && total <= 30) personality =2;
+    if (total >= 31 && total <= 40) personality =3; 
+    if (total >= 41 && total <= 50) personality =4;
+    if (total >= 51 && total <= 60) personality =5;
 }
 
 /* 

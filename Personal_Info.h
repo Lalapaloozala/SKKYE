@@ -10,6 +10,7 @@ void die(){
 
 int main() {
     string first, last;
+    string username, password;
     char correct;
     int x, y = 0;
     bool input = true;

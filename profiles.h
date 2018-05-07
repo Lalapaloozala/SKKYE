@@ -2,6 +2,11 @@
 #include <algorithm>
 using namespace std;
 
+void die() {
+    cout<< "INVALID INPUT" << endl;
+    exit(1);
+}
+
 struct BST {
     char data1;
     BST *left=NULL;

@@ -35,6 +35,7 @@ void answer () {
 };
 
 class Kbear1 : public Kbear {
+    public:
 void quiz() {
     cout << "WELCOME TO THE SKKYE PERSONALITY QUIZ!\n";
     cout << "Please anwser the following questions to the best\n";

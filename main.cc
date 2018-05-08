@@ -37,7 +37,7 @@ int main(){
     if (total >= 31 && total <= 40) personality = myTree.find(3); 
     if (total >= 41 && total <= 50) personality = myTree.find(4);
     if (total >= 51 && total <= 60) personality = myTree.find(5);
-    Personality::match (type); //match with co-founder and add or don't add friend
+    match (type); //match with co-founder and add or don't add friend
     //chat
 }
 

@@ -25,7 +25,7 @@ using namespace std;
             prev = NULL;
         };
 
-        int getInput() {
+        string getInput() {
             return input;
         }
 

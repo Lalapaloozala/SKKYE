@@ -31,13 +31,13 @@ int main(){
 
     quiz(); //take the quiz
     cout << "Your score is " << total << "." << endl;
-    int personality =0;
+    int type = 0;
     if (total >= 12 && total <= 20) personality = myTree.find(1);
     if (total >= 21 && total <= 30) personality = myTree.find(2);
     if (total >= 31 && total <= 40) personality = myTree.find(3); 
     if (total >= 41 && total <= 50) personality = myTree.find(4);
     if (total >= 51 && total <= 60) personality = myTree.find(5);
-    PH (personality); //match with co-founder and add or don't add friend
+    Personality::match (type); //match with co-founder and add or don't add friend
     //chat
 }
 

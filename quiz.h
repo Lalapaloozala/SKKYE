@@ -2,8 +2,9 @@
 using namespace std;
 
 int total = 0;
-
-void anwser () {
+class Kbear {
+    protected:
+void answer () {
     while (cin) {
     char c;
     cin >> c;
@@ -31,7 +32,9 @@ void anwser () {
         else cout << "Invalid input. Please try again.\n";
     }
 }
+};
 
+class Kbear1 : public Kbear {
 void quiz() {
     cout << "WELCOME TO THE SKKYE PERSONALITY QUIZ!\n";
     cout << "Please anwser the following questions to the best\n";
@@ -44,7 +47,7 @@ void quiz() {
     cout << "C) Red\n";
     cout << "D) Black\n";
     cout << "E) Blue\n";
-    anwser();
+    Kbear::answer();
     
     cout << "2) What is your favorite genre of music?\n";
     cout << "A) Rock\n";
@@ -52,7 +55,7 @@ void quiz() {
     cout << "C) Country\n";
     cout << "D) Electronic\n";
     cout << "E) Hip-hop / Rap\n";
-    answer();
+    Kbear::answer();
     
     cout << "3) What is your favorite movie?\n";
     cout << "A) Romantic\n";
@@ -60,7 +63,7 @@ void quiz() {
     cout << "C) Thriller\n"; 
     cout << "D) Horror\n";
     cout << "E) Comedy\n";
-    answer();
+    Kbear::answer();
     
     cout << "4) What is your ideal weekend?\n";
     cout << "A) Relaxing\n";
@@ -68,7 +71,7 @@ void quiz() {
     cout << "C) Playing Video Games\n";
     cout << "D) Hiking\n";
     cout << "E) Partying\n";
-    answer();
+    Kbear::answer();
     
     cout << "5) What is your favorite pet?\n";
     cout << "A) Cat\n";
@@ -76,7 +79,7 @@ void quiz() {
     cout << "C) Horse\n";
     cout << "D) Snake\n";
     cout << "E) Dog\n";
-    answer();
+    Kbear::answer();
     
     cout << "6) What is your favorite school subject?\n";
     cout << "A) Art\n";
@@ -84,7 +87,7 @@ void quiz() {
     cout << "C) History\n";
     cout << "D) P.E.\n";
     cout << "E) English\n";
-    answer();
+    Kbear::answer();
     
     cout << "7) Where would you rather live?\n";
     cout << "A) Suburbs\n";
@@ -92,7 +95,7 @@ void quiz() {
     cout << "C) Desert\n"; 
     cout << "D) Country\n";
     cout << "E) City\n";
-    answer();
+    Kbear::answer();
     
     cout << "8) What is your favorite drink?\n";
     cout << "A) Tea\n";
@@ -100,7 +103,7 @@ void quiz() {
     cout << "C) Orange Juice\n"; 
     cout << "D) Energy Drinks/ Soda\n";
     cout << "E) Coffee\n";
-    answer();
+    Kbear::answer();
     
     cout << "9) Which city would you rather visit?\n";
     cout << "A) Paris\n";
@@ -108,7 +111,7 @@ void quiz() {
     cout << "C) Osaka\n";
     cout << "D) Tokyo\n";
     cout << "E) Rio\n";
-    answer();
+    Kbear::answer();
     
     cout << "10) What is your favorite animal?\n";
     cout << "A) Elephant\n";
@@ -116,7 +119,7 @@ void quiz() {
     cout << "C) Cat\n";
     cout << "D) Snake\n";
     cout << "E) Lion\n";
-    answer();
+    Kbear::answer();
     
     cout << "11) Which is your favorite Sport?\n";
     cout << "A) Basketball\n";
@@ -124,7 +127,7 @@ void quiz() {
     cout << "C) Motocross\n";
     cout << "D) Football\n";
     cout << "E) MMA\n";
-    answer();
+    Kbear::answer();
     
     cout << "12) Which would you most like to eat?\n";
     cout << "A) Mac & Cheese\n";
@@ -132,7 +135,8 @@ void quiz() {
     cout << "C) Pizza\n";
     cout << "D) Sushi\n";
     cout << "E) Tacos & Beer\n";
-    answer();
+    Kbear::answer();
     
     return;
 }
+};

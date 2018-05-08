@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-void die() {
+void die1() {
     cout<< "INVALID INPUT" << endl;
     exit(1);
 }
@@ -75,7 +75,7 @@ void friend_request () {
   cout << "Enter a 1 if you would like to add them as a friend or" << endl;
   cout << "enter a 0 if you would not like to add them as a friend." << endl;
   cin >> answer;
-  if (!cin) die();
+  if (!cin) die1();
   if (answer == 1)
     cout << "You currently have 1 friend on SKKYE!" << endl;
   else if(answer == 0)

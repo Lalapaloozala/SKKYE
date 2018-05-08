@@ -8,7 +8,7 @@ void answer () {
     while (cin) {
     char c;
     cin >> c;
-    toupper(c);
+    c = toupper(c);
         if (c == 'A') {
             total++;
             break;

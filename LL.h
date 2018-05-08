@@ -8,7 +8,7 @@ using namespace std;
 
     class Node {
       private:
-        int input;
+        string input;
         Node *next;
         Node *prev;
 
@@ -19,8 +19,8 @@ using namespace std;
             prev = NULL;
         };
 
-        Node(int x) {
-            x = input;
+        Node(string x) {
+            input = x;
             next = NULL;
             prev = NULL;
         };
@@ -29,7 +29,7 @@ using namespace std;
             return input;
         }
 
-        void setInput(int x) {
+        void setInput(string x) {
             input = x;
         }
 

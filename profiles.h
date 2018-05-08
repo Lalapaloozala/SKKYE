@@ -8,6 +8,7 @@ void die() {
 }
 
 struct BST {
+    char data;
     char data1;
     BST *left=NULL;
     BST *right = NULL;

@@ -14,7 +14,7 @@ using namespace std;
 
       public:
         Node() {
-            input = 0;
+            input = "0";
             next = NULL;
             prev = NULL;
         };

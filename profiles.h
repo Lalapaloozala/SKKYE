@@ -68,7 +68,22 @@ class Tree {
 class Personality {
   public:
     int answer = 0;
-  void PH(int x) {
+    int personality = 0;
+void friend_request {
+  cout << "Would you like to add them as a friend?" << endl;
+  cout << "Enter a 1 if you would like to add them as a friend or" << endl;
+  cout << "enter a 0 if you would not like to add them as a friend." << endl;
+  cin >> answer;
+  if (!cin) die();
+  if (answer == 1)
+    cout << "You currently have 1 friend on SKKYE!" << endl;
+  else if(answer == 0)
+    cout << "You currently have 0 fiends on SKKYE." << endl;
+  else if(answer != 1 && answer != 0)
+    cout << "Sorry, wrong input." << endl;
+}
+
+  void match(int x) {
       personality = x;
       
       if(personality == 1) {
@@ -103,7 +118,7 @@ class Personality {
   
   if(personality == 4) {
     cout << " Congrats! You are ADVENTUROUS! " << endl;
-    cout << "<><><><><><><><><><><><><><><>" endl;
+    cout << "<><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is ERIC$$$." << endl; 
     cout << "He is 25 years old." << endl; 
     cout << "He is 6 ft tall." << endl; 
@@ -116,23 +131,9 @@ class Personality {
     cout << "<><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is YLEIA_XO" << endl; 
     cout << "She is 21 years old." << endl; 
-    cout << "She is 5 ft 2 in tall.\n"; << endl; 
+    cout << "She is 5 ft 2 in tall."; << endl; 
     cout << "She loves to go to parties and hang out with friends!" << endl; //fill in pronoun and short bio/interest/hobbies?
     friend_request(); 
   }
   }
-  };
-
-void friend_request {
-  cout << "Would you like to add them as a friend?" << endl;
-  cout << "Enter a 1 if you would like to add them as a friend or" << endl;
-  cout << "enter a 0 if you would not like to add them as a friend." << endl;
-  cin >> answer;
-  if (!cin) die();
-  if (answer == 1)
-    cout << "You currently have 1 friend on SKKYE!" << endl;
-  else if(answer == 0)
-    cout << "You currently have 0 fiends on SKKYE." << endl;
-  else if(answer != 1 && answer != 0)
-    cout << "Sorry, wrong input." << endl;
-}
+};

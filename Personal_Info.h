@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include "LL.h"
 
 using namespace std;
 
@@ -8,6 +9,8 @@ char correct;
 int x, y = 0;
 bool input = true;
 int tries = 0;
+
+LL taco;
 
 void die() {
     cout << "BAD INPUT\n";
@@ -30,6 +33,7 @@ void GetName() {
         first.at(0) = toupper(first.at(0));
     }
     cout << first << endl;
+    taco.insertAtBeginning(first);
 
     cout << "\nEnter your last name: ";
     cin >> last;
@@ -41,12 +45,14 @@ void GetName() {
     }
 
     cout << last << endl << endl;
+    taco.insertAtEnd(last);
 }
 
 void user_and_pass() {
     cout << first + " " + last << ", please choose a username: ";
     cin >> username;
     if (!cin) die();
+    taco.insertAtEnd(username);
     cout << "\nChoose a password: ";
     cin >> password;
     if (!cin) die();
@@ -62,6 +68,7 @@ void user_and_pass() {
                 } else {
             break;
         }
+        taco.insertAtEnd(password);
     }
 }
 

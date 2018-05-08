@@ -70,7 +70,7 @@ using namespace std;
             return size;
         }
 
-        int insertAtBeginning(int x) {
+        int insertAtBeginning(string x) {
             Node *top = new Node {x};
             if (size == 0) {
                 head = top;
@@ -83,7 +83,7 @@ using namespace std;
             size++;
         }
 
-        int insertAtEnd(int x) {
+        int insertAtEnd(string x) {
             Node *bottom = new Node {x};
             if (size == 0) {
                 tail = bottom;

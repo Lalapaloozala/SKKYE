@@ -69,7 +69,7 @@ class Personality {
   public:
     int answer = 0;
     int personality = 0;
-void friend_request {
+void friend_request () {
   cout << "Would you like to add them as a friend?" << endl;
   cout << "Enter a 1 if you would like to add them as a friend or" << endl;
   cout << "enter a 0 if you would not like to add them as a friend." << endl;

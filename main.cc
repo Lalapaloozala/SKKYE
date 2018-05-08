@@ -28,8 +28,8 @@ int main(){
     cin >> bio;
     if (!cin) die();
 
-
-    quiz(); //take the quiz
+    Kbear1 Kbear1;
+    Kbear1.quiz(); //take the quiz
     cout << "Your score is " << total << "." << endl;
     int type = 0;
     if (total >= 12 && total <= 20) personality = myTree.find(1);

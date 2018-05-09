@@ -33,6 +33,7 @@ int main(){
     cout << "Create a bio so that your friends can see what you like to do:" << endl;
     cin >> bio;
     if (!cin) die();
+    taco.insertAtEnd(bio);
 
     Kbear1 Kbear1;
     Kbear1.quiz(); //take the quiz

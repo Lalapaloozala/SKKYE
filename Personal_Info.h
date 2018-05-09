@@ -32,8 +32,7 @@ void GetName() {
         first.at(0) = toupper(first.at(0));
     }
     cout << first << endl;
-    taco.insertAtBeginning(first);
-
+   
     cout << "\nEnter your last name: ";
     cin >> last;
     for (int i = 0; i < last.size(); i++) {
@@ -44,14 +43,12 @@ void GetName() {
     }
 
     cout << last << endl << endl;
-    taco.insertAtEnd(last);
 }
 
 void user_and_pass() {
     cout << first + " " + last << ", please choose a username: ";
     cin >> username;
     if (!cin) die();
-    taco.insertAtEnd(username);
     cout << "\nChoose a password: ";
     cin >> password;
     if (!cin) die();
@@ -67,7 +64,6 @@ void user_and_pass() {
                 } else {
             break;
         }
-        taco.insertAtEnd(password);
     }
 }
 

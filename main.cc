@@ -7,6 +7,8 @@
 #include <cstdlib>
 using namespace std;
 
+LL taco;
+
 int main(){
     Tree myTree;
     for (int i = 0; i < 5; i++) {
@@ -21,7 +23,11 @@ int main(){
     
     
     GetName();
+    taco.insertAtBeginning(first);
+    taco.insertAtEnd(last);
     user_and_pass();
+    taco.insertAtEnd(username);
+    taco.insertAtEnd(password);
     
     cout << endl;
     cout << "Create a bio so that your friends can see what you like to do:" << endl;

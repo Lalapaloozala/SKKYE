@@ -18,7 +18,7 @@ void die() {
 }
 
 void pass_die() {
-    cout << "If you can't even remember the password you just typed in, there is no point being on the internet..........Prepearing Doxing session.......Good luck :)\n";
+    cout << "If you can't even remember the password you just typed in, you must have bugged social media mechanics ;)"
     exit(0);
 }
 

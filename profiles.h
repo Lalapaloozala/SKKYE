@@ -9,7 +9,6 @@ void die1() {
 
 struct BST {
     char data;
-    char data1;
     BST *left=NULL;
     BST *right = NULL;
     BST(char new_data) {
@@ -26,13 +25,12 @@ class Tree {
         Tree(){};
         BST *head= NULL;
 
-        void insert(BST *temp, char data1){
+        void insert(BST *temp, int data1){
             if (! head) {
-                BST *temp1 = new BST(data1);
-                head = temp1;
+                head = new BST(data1);
                 return;
             }
-            else if (data1 == temp->data)
+            else if (data1 == temp->data) //reject duplicate
                 return;
             else if (data1 < temp->data){
                 if (temp->left == NULL){
@@ -52,11 +50,11 @@ class Tree {
             }
         }
 
-        int find(char data1){
+        int find(int data1){
             BST *temp = head;
             while (temp != NULL){
                 if (temp->data == data1)
-                    return data;
+                    return data1;
                 else if (data1 < temp -> data)
                     temp = temp->left;
                 else if (data1 > temp -> data)
@@ -71,25 +69,32 @@ class Personality {
     int answer = 0;
     int personality = 0;
 void friend_request () {
+  cout << "--------------------------------------------------------------" << endl;
   cout << "Would you like to add them as a friend?" << endl;
   cout << "Enter a 1 if you would like to add them as a friend or" << endl;
   cout << "enter a 0 if you would not like to add them as a friend." << endl;
+  cout << "--------------------------------------------------------------" << endl;
   cin >> answer;
   if (!cin) die1();
-  if (answer == 1)
-    cout << "You currently have 1 friend on SKKYE!" << endl;
-  else if(answer == 0)
-    cout << "You currently have 0 fiends on SKKYE." << endl;
-  else if(answer != 1 && answer != 0)
-    cout << "Sorry, wrong input." << endl;
+  if (answer == 1) {
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "**********  You currently have 1 friend on SKKYE!   **********" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+  }else if(answer == 0) {
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "**********  You currently have 0 fiends on SKKYE.   **********" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+  }else if(answer != 1 && answer != 0)
+    cout << "\nSorry, wrong input." << endl;
 }
 
   void match(int x) {
       personality = x;
       
       if(personality == 1) {
-    cout << " Congrats! You are CHILL! " << endl;
-    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "*****************  Congrats! You are CHILL!  *****************" << endl;
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is KORY_*v*." << endl; 
     cout << "She is 19 years old." << endl; 
     cout << "She is 5 ft 2 in tall." << endl; 
@@ -98,8 +103,9 @@ void friend_request () {
   }
   
   if(personality == 2) {
-    cout << " Congrats! You are CHARMING! " << endl;
-    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "***************  Congrats! You are CHARMING!  ****************" << endl;
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is KAMILAH_123<3." << endl;
     cout << "She is 23 years old." << endl; 
     cout << "She is 6 ft tall." << endl; 
@@ -108,8 +114,9 @@ void friend_request () {
   }
   
   if(personality == 3) {
-    cout << " Congrats! You are IMAGINATIVE! " << endl;
-    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "**************  Congrats! You are IMAGINATIVE!  **************" << endl;
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is SALEH!#$." << endl; 
     cout << "He is 20 years old." << endl; 
     cout << "He is 5 ft 9 in tall." << endl; 
@@ -118,8 +125,9 @@ void friend_request () {
   }
   
   if(personality == 4) {
-    cout << " Congrats! You are ADVENTUROUS! " << endl;
-    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "**************  Congrats! You are ADVENTUROUS!  **************" << endl;
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is ERIC$$$." << endl; 
     cout << "He is 25 years old." << endl; 
     cout << "He is 6 ft tall." << endl; 
@@ -128,8 +136,9 @@ void friend_request () {
   }
   
   if(personality == 5) {
-    cout << " Congrats! You are OUTGOING! " << endl;
-    cout << "<><><><><><><><><><><><><><><>" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "****************  Congrats! You are OUTGOING!  ***************" << endl;
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>" << endl;
     cout << "A suggested friend for you is YLEIA<3" << endl; 
     cout << "She is 21 years old." << endl; 
     cout << "She is 5 ft 2 in tall."; << endl; 

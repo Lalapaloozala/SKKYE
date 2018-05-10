@@ -60,7 +60,7 @@ void quiz() {
     cout << "**********  WELCOME TO THE SKKYE PERSONALITY QUIZ!  **********\n";
     cout << "\n--------------------------------------------------------------" << endl;
     cout << "Please choose the answer that represents you the most\n";
-    cout << "using answer keys A, B, C, and D.\n";
+    cout << "using answer keys A, B, C, D, or E.\n";
     cout << "--------------------------------------------------------------" << endl;
     
     cout << "\n1) What is your favorite color?\n";

@@ -83,7 +83,7 @@ using namespace std;
             size++;
         }
 
-        int insertAtEnd(string x) {
+        void insertAtEnd(string x) {
             Node *bottom = new Node {x};
             if (size == 0) {
                 tail = bottom;

@@ -68,5 +68,6 @@ void user_and_pass() {
 void biography(){
     cout << "\nYour next step is to create a biography, so tell us a little about yourself!" << endl;
     cin >> bio;
+    if(!cin) die();
     cout << endl;
 }

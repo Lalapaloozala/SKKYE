@@ -64,3 +64,9 @@ void user_and_pass() {
         }
     }
 }                                                                                                                                                                                                                           1,19          To
+
+void biography(){
+    cout << "\nYour next step is to create a biography, so tell us a little about yourself!" << endl;
+    cin >> bio;
+    cout << endl;
+}

@@ -130,7 +130,7 @@ void friend_request () {
   if(personality == 5) {
     cout << " Congrats! You are OUTGOING! " << endl;
     cout << "<><><><><><><><><><><><><><><>" << endl;
-    cout << "A suggested friend for you is YLEIA_XO" << endl; 
+    cout << "A suggested friend for you is YLEIA<3" << endl; 
     cout << "She is 21 years old." << endl; 
     cout << "She is 5 ft 2 in tall."; << endl; 
     cout << "She loves to go to parties and hang out with friends!" << endl; //fill in pronoun and short bio/interest/hobbies?

@@ -79,7 +79,7 @@ void quiz() {
     cout << "E) Hip-hop / Rap\n";
     Kbear::answer();
     
-    cout << "\n3) What is your favorite movie?\n";
+    cout << "\n3) What is your favorite movie genre?\n";
     cout << "A) Romantic\n";
     cout << "B) Adventure\n";
     cout << "C) Thriller\n"; 
@@ -95,7 +95,7 @@ void quiz() {
     cout << "E) Partying\n";
     Kbear::answer();
     
-    cout << "\n5) What is your favorite pet?\n";
+    cout << "\n5) Which of these would you most like to have as a pet?\n";
     cout << "A) Cat\n";
     cout << "B) Bunny\n";
     cout << "C) Horse\n";

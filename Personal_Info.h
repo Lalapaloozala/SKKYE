@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-
 using namespace std;
 
 string first, last, username, password, password1;
@@ -8,8 +7,6 @@ char correct;
 int x, y = 0;
 bool input = true;
 int tries = 0;
-
-LL taco;
 
 void die() {
     cout << "BAD INPUT\n";
@@ -22,7 +19,9 @@ void pass_die() {
 }
 
 void GetName() {
-    cout << "Sign up for SKKYE!" << endl;
+    cout << "--------------------------------------------------------------" << endl;
+    cout << "********************  Sign up for SKKYE!  ********************" << endl;
+    cout << "--------------------------------------------------------------" << endl;
     cout << "\nEnter your first name: ";
     cin >> first;
     for (int i = 0; i < first.size(); i++) {
@@ -52,19 +51,16 @@ void user_and_pass() {
     cout << "\nChoose a password: ";
     cin >> password;
     if (!cin) die();
-    cout << endl;
     while (input) {
-        cout << "Please enter your password again (Yeah, we're gonna be like that): ";
+        cout << "\nEnter your password again (Yeah, we're gonna be like that): ";
         cin >> password1;
         if (!cin) die();
         if (password1 != password){
-            cout << "Passwords do not match!\n";
+            cout << "\nPasswords do not match!\n";
             tries++;
                 if(tries >= 3) { pass_die(); }
                 } else {
             break;
         }
     }
-}
-
-                                                                                                                                                                                                                           1,19          Top
+}                                                                                                                                                                                                                           1,19          To

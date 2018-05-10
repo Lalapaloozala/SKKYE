@@ -14,7 +14,7 @@ void die() {
 }
 
 void pass_die() {
-    cout << "If you can't even remember the password you just typed in, you must have bugged social media mechanics ;)"
+    cout << "If you can't even remember the password you just typed in, you must have bugged social media mechanics ;)\n";
     exit(0);
 }
 

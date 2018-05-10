@@ -26,6 +26,7 @@ class Internet_Client {
     public:
     //Constructor that takes an ip address and port number for the server to connect to
     Internet_Client(char* ip, char* port) : socket(io_service) {
+        while (true) {
         boost::asio::ip::tcp::resolver resolver(io_service);
         tcp::resolver::query query(ip, port);
         tcp::resolver::iterator endpoint_iterator = resolver.resolve(query);
@@ -35,8 +36,9 @@ class Internet_Client {
             socket.close();
             socket.connect(*endpoint_iterator++, error);
         }
-        if (error)
-            throw system::system_error(error);
+        if (!error) break;
+            //throw system::system_error(error);
+        }
     }
 
     //Reads up to BUFFER_SIZE bytes from server at once

@@ -1,4 +1,12 @@
-SKKYE
+SKKYE is a social media network that matches people with friends based on personal interests and personality types.
+
+The first step to setting up a SKKYE account is to enter your personal information. From there, you will take a personality quiz
+that matches you with one of five personality types (chill, charming, imaginitive, adventurous, or outgoing).
+After SKKYE determines your personality type it will match you with one of our profiles in the system and from there you can
+add and chat with new friends.<3
+
+TO DO:
+NETWORKING - CHAT
 
 PROGRAM
 1) INSERT PERSONAL INFORMATION
@@ -6,12 +14,7 @@ PROGRAM
 3) GET MATCHED UP WITH ONE OF THE FOUR PROFILES IN THE SYSTEM
 4) CHOOSE WHICH FRIENDS YOU WOULD LIKE TO ADD
 5) NETWORKING
-
-TO DO:
-
 KAMILAH: PROJECT MANAGER 
-
-NETWORKING - CHAT
 
 MATH
 A) AMOUNT OF POINTS PER ANSWER 
@@ -28,6 +31,10 @@ B) SCORE BETWEEN 12 AND 60
 4. 41 - 50 - ADVENTUROUS
 5. 51 - 60 - OUTGOING
 
+KAMILAH: PROJECT MANAGER
+
+YLEIA: PERSONALITY QUIZ
+
 KORY & SALEH: CREATE 4 DIFFERENT PERSONALITIES & PROFILES USING BST
 1. CHILL
 2. CHARMING
@@ -37,4 +44,4 @@ KORY & SALEH: CREATE 4 DIFFERENT PERSONALITIES & PROFILES USING BST
 
 ERIC: CREATE LINK LIST FOR PERSONAL INFORMATION & MAKEFILE
 
-YLEIA: PERSONALITY QUIZ
+

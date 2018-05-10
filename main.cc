@@ -36,14 +36,10 @@ int main(){
     taco.insertAtEnd(username);
     taco.insertAtEnd(password);
     
-    string bio;
-    
-    cout << endl;
-    cout << "Create a bio so that your friends can see what you like to do:" << endl;
-    cin >> bio;
-    getline (cin, bio);
-    if (!cin) die();
+    biography();
     taco.insertAtEnd(bio);
+    
+    cout << "You're almost done! Now you will take a quick personality quiz!\n";
 
     Kbear1 Kbear1;
     Kbear1.quiz(); //take the quiz

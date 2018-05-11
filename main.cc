@@ -39,7 +39,6 @@ int main(){
     biography();
     taco.insertAtEnd(bio);
     
-    cout << "You're almost done! Now you will take a quick personality quiz!\n";
 
     Kbear1 Kbear1;
     Kbear1.quiz(); //take the quiz
